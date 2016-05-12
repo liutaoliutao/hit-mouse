@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18AE92961CE46C5C00D836C9 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AE92941CE46C5C00D836C9 /* TableViewCell.m */; };
+		18AE92971CE46C5C00D836C9 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18AE92951CE46C5C00D836C9 /* TableViewCell.xib */; };
 		3A745E581B745CE60023174A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A745E571B745CE60023174A /* main.m */; };
 		3A745E5B1B745CE60023174A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A745E5A1B745CE60023174A /* AppDelegate.m */; };
 		3A745E5E1B745CE60023174A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A745E5D1B745CE60023174A /* ViewController.m */; };
@@ -28,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18AE92931CE46C5C00D836C9 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		18AE92941CE46C5C00D836C9 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		18AE92951CE46C5C00D836C9 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		3A745E521B745CE60023174A /* 打地鼠.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "打地鼠.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A745E561B745CE60023174A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A745E571B745CE60023174A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -88,6 +93,9 @@
 				3A745E5A1B745CE60023174A /* AppDelegate.m */,
 				3A745E5C1B745CE60023174A /* ViewController.h */,
 				3A745E5D1B745CE60023174A /* ViewController.m */,
+				18AE92931CE46C5C00D836C9 /* TableViewCell.h */,
+				18AE92941CE46C5C00D836C9 /* TableViewCell.m */,
+				18AE92951CE46C5C00D836C9 /* TableViewCell.xib */,
 				3A745E7B1B74743C0023174A /* TRMouse.h */,
 				3A745E7C1B74743C0023174A /* TRMouse.m */,
 				3A745E5F1B745CE60023174A /* Main.storyboard */,
@@ -205,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A745E611B745CE60023174A /* Main.storyboard in Resources */,
+				18AE92971CE46C5C00D836C9 /* TableViewCell.xib in Resources */,
 				3A745E661B745CE60023174A /* LaunchScreen.xib in Resources */,
 				3A745E631B745CE60023174A /* Images.xcassets in Resources */,
 			);
@@ -227,6 +236,7 @@
 				3A745E5E1B745CE60023174A /* ViewController.m in Sources */,
 				3A745E5B1B745CE60023174A /* AppDelegate.m in Sources */,
 				3A745E581B745CE60023174A /* main.m in Sources */,
+				18AE92961CE46C5C00D836C9 /* TableViewCell.m in Sources */,
 				3A745E7D1B74743C0023174A /* TRMouse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +428,7 @@
 				3A745E771B745CE60023174A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A745E781B745CE60023174A /* Build configuration list for PBXNativeTarget "打地鼠Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +437,7 @@
 				3A745E7A1B745CE60023174A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
