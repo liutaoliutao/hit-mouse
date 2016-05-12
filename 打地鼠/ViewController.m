@@ -21,6 +21,10 @@
    
     [NSThread detachNewThreadSelector:@selector(createMouse) toTarget:self withObject:nil];
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(kelledMouse) name:@"click" object:nil];
+    UILabel *label = [[UILabel alloc]init];
+    label.text  = @"w我是一个";
+    label.frame = CGRectMake(100, 100, 100, 100);
+    [self.view addSubview:label];
 }
 
 -(void)kelledMouse{
